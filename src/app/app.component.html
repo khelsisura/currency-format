@@ -1,0 +1,7 @@
+<!-- <form [formGroup]="form">
+  <input formControlName="currency" type="text" [currencyType]="'en-AU'">
+  <button type="button" (click)='submit()'>save</button>
+</form> -->
+
+<input [(ngModel)]="currency" type="text" [currencyType]="'en-AU'" />
+<button type="button" (click)="submit()">save</button>
